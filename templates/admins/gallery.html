@@ -1,0 +1,55 @@
+{% extends 'admins/side-menu.html' %} 
+{% block body %}
+{% load static %}
+
+<div id="wrapper">
+    <!---->
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="content-main">
+
+            <!--banner-->
+            <div class="banner">
+                <h2>
+                    <a href="">Home</a>
+                    <i class="fa fa-angle-right"></i>
+                    <span>Gallery</span>
+                </h2>
+                <a href="Add_image">
+                    <p class="add_image">
+                        <button type="button" class="btn btn-primary">Add Image</button>
+                    </p>
+                </a>
+            </div>
+
+            <!--//banner-->
+            <!--gallery-->
+            <div class="gallery">
+                {% for i in gallerylist %}
+                <div class="col-md">
+                    <div class="gallery-img">
+                        <a href="{% static 'admin/images/ga.jpg' %}" class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                            <img class="img-responsive" src="{{ i.img}}" alt="" />
+                            <span class="zoom-icon"> </span> </a>
+                        </a>
+                    </div>
+                    <div class="text-gallery">
+                        <h6>{{i.title}}</h6>
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="clearfix"> </div>
+            </div>
+            <!--//gallery-->
+            <!---->
+            <!---->
+            <!--<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+				});-->
+        </div>
+    </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,57 @@
+{% extends 'admins/side-menu.html' %}
+{% load static %}
+{% block body %}
+<!--main content start-->
+<div id="wrapper">  
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="content-main">
+             <!-- Start banner-->
+             <div class="banner">
+                <h2>
+                    <a href="">Home</a>
+                    <i class="fa fa-angle-right"></i>
+                    <span>Contact</span>
+                </h2>
+            </div>
+            <!--End banner-->
+            <!--Start Table-->
+            <div class="banner">
+            <div class='container'>
+                <div class='row'>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                <th scope="col">S.N.</th>
+                                <th scope="col">Full Name</th>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Mobile No.</th>
+                                <th scope="col">E-mail</th>
+                                <th scope="col">Message</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                 {% for i in contactlist %}
+                                <tr>
+                                    <th scope="row">{{ forloop.counter }}</th>
+                                    <td> {{i.Full_Name}} </td>
+                                    <td>{{ i.Subject}}</td>
+                                    <td> {{i.Mobile}}</td>
+                                    <td>{{ i.Email}}</td>
+                                    <td>{{i.Message}}</td>
+                                </tr>
+                                {% endfor %}  
+                            </tbody>
+                        </table>
+                 </div>
+              <div>
+            </div>
+        </div>
+
+            <!--End Table-->
+        </div>
+
+    </div>
+</div>
+
+{% endblock body %}

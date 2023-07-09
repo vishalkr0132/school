@@ -1,0 +1,147 @@
+{% extends 'header.html' %}
+{% block body %}
+{% load static %}
+
+	<!-- banner -->
+	<div class="banner-agile-2">
+		<!-- navigation -->
+		<div class="navigation-w3ls">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav">
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				 aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+					<ul class="navbar-nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link text-white" href="/">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="about">About Us</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Courses
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="language">Language</a>
+								<a class="dropdown-item" href="communication">Communication</a>
+								<a class="dropdown-item" href="business">Business</a>
+								<a class="dropdown-item" href="software">Software</a>
+								<a class="dropdown-item" href="social_media">Social Media</a>
+								<a class="dropdown-item" href="photography">Photography</a>
+								<a class="dropdown-item" href="course_details">Course Details</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="form">Apply Now</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pages
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="about">Instructors</a>
+								<a class="dropdown-item" href="index">What We Do</a>
+								<a class="dropdown-item" href="#">Login</a>
+								<a class="dropdown-item" href="#">Register</a>
+								<a class="dropdown-item" href="404.html">404 Page</a>
+								<a class="dropdown-item active" href="coming_soon">Coming Soon</a>
+								<a class="dropdown-item" href="form">Admission Form</a>
+								<a class="dropdown-item" href="faq">Faq</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="blog">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="gallery">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="contact">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- //navigation -->
+	</div>
+	<!-- breadcrumb -->
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="breadcrumb-item active" aria-current="page">Coming Soon</li>
+		</ol>
+	</nav>
+	<!-- breadcrumb -->
+	<!-- //banner -->
+
+	<!-- coming soon -->
+	<div class="w3-main-coming py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="title text-capitalize font-weight-light text-dark text-center mb-5">Coming
+				<span class="font-weight-bold">soon</span>
+			</h3>
+			<!-- content -->
+			<div class="main-content-agile pt-md-4">
+				<div class="w3l-agile-coming text-center ">
+					<h3 class="text-dark mb-4">we are coming soon</h3>
+					<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<!--timer-->
+				<div class="examples">
+					<div class="simply-countdown-losange" id="simply-countdown-losange"></div>
+					<div class="clear"></div>
+				</div>
+				<!--//timer-->
+				<!-- newsletter -->
+				<div class="sub-main-w3-2">
+					<form action="#" method="post">
+						<p class="text-dark mb-3 text-right">Notify me when it's ready</p>
+						<div class="form-style-agile-2">
+							<input placeholder="Your Email Address......" name="Name" type="email" required="">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+				<!-- //newsletter -->
+			</div>
+			<!-- //content -->
+		</div>
+	</div>
+	<!-- //coming soon -->
+
+	<!-- brands -->
+	<div class="brands-w3ls py-md-5 py-4">
+		<div class="container py-xl-3">
+			<ul class="list-unstyled">
+				<li>
+					<i class="fab fa-supple"></i>
+				</li>
+				<li>
+					<i class="fab fa-angrycreative"></i>
+				</li>
+				<li>
+					<i class="fab fa-aviato"></i>
+				</li>
+				<li>
+					<i class="fab fa-aws"></i>
+				</li>
+				<li>
+					<i class="fab fa-cpanel"></i>
+				</li>
+				<li>
+					<i class="fab fa-hooli"></i>
+				</li>
+				<li>
+					<i class="fab fa-node"></i>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //brands -->
+
+{% endblock body %}

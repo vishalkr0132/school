@@ -1,0 +1,16 @@
+ {% extends 'admins/side-menu.html' %}
+  {% load static %}
+   {% block body %}
+<div id="wrapper">
+    <div class="inbox_form">
+        <form action="inbox" method="POST">
+            {% csrf_token %}
+            <input type="text" placeholder="title" name="title">
+            <input type="text" placeholder="Discription" name="disc">
+            <input type="file"  placeholder="images" name="img">
+            <button type="submit"> submit</button>
+        </form>
+    </div>
+</div>
+
+{% endblock body %}

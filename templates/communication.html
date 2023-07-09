@@ -1,0 +1,460 @@
+{% extends 'header.html' %}
+{% block body %}
+{% load static %}
+
+	<!-- banner -->
+	<div class="banner-agile-2">
+		<!-- navigation -->
+		<div class="navigation-w3ls">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav">
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				 aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+					<ul class="navbar-nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link text-white" href="/">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="about">About Us</a>
+						</li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Courses
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="language">Language</a>
+								<a class="dropdown-item active" href="communication">Communication</a>
+								<a class="dropdown-item" href="business">Business</a>
+								<a class="dropdown-item" href="software">Software</a>
+								<a class="dropdown-item" href="social_media">Social Media</a>
+								<a class="dropdown-item" href="photography">Photography</a>
+								<a class="dropdown-item" href="course_details">Course Details</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="form">Apply Now</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pages
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="about">Instructors</a>
+								<a class="dropdown-item" href="index">What We Do</a>
+								<a class="dropdown-item" href="login">Login</a>
+								<a class="dropdown-item" href="register">Register</a>
+								<a class="dropdown-item" href="404">404 Page</a>
+								<a class="dropdown-item" href="coming_soon">Coming Soon</a>
+								<a class="dropdown-item" href="form">Admission Form</a>
+								<a class="dropdown-item" href="faq">Faq</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="blog">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="gallery">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="contact">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- //navigation -->
+	</div>
+	<!-- breadcrumb -->
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="/">Home</a>
+			</li>
+			<li class="breadcrumb-item active" aria-current="page">Communication</li>
+		</ol>
+	</nav>
+	<!-- breadcrumb -->
+	<!-- //banner -->
+
+	<!-- course-->
+	<div class="course-w3ls py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="title text-capitalize font-weight-light text-dark text-center mb-sm-5 mb-4">course -
+				<span class="font-weight-bold">Communication</span>
+			</h3>
+			<div class="row cource-list-agile pt-4">
+				<div class="col-lg-7 agile-course-main">
+					<div class="w3ls-cource-first">
+						<img src="images/1.png" alt="" class="img-fluid img-poiscour mx-auto d-block mt-2"></img>
+						<div class="px-md-5 px-4  pb-md-5 pb-4">
+							<h3 class="text-dark">Communication Of Confidence</h3>
+							<p class="mt-3 mb-4 pr-lg-5">accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<i class="fas fa-calendar-alt mr-3"></i>may - aug 2018</li>
+								<li class="my-3">
+									<i class="fas fa-clock mr-3"></i>4 - 6 hours</li>
+								<li>
+									<i class="fas fa-users mr-3"></i>70 seats</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 agile-course-main-2 mt-4">
+					<img src="{% static '/images/n2.jpg' %}" alt="" class="img-fluid">
+				</div>
+				<div class="buttons-w3ls">
+					<a class="btn button-cour-w3ls text-white" href="course_details.html" role="button">Learn More</a>
+					<a class="btn bg-dark text-white" href="form" role="button">Apply Now</a>
+				</div>
+			</div>
+			<div class="row cource-list-agile cource-list-agile-2">
+				<div class="col-lg-5 agile-course-main-3 mt-4">
+					<img src="{% static '/images/n1.jpg' %}" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-7 agile-course-main text-right">
+					<div class="w3ls-cource-first">
+						<img src="{% static '/images/2.png' %}" alt="" class="img-fluid img-poiscour mx-auto d-block mt-2"></img>
+						<div class="px-md-5 px-4  pb-md-5 pb-4">
+							<h3 class="text-dark">Communication Digital Media</h3>
+							<p class="mt-3 mb-4 pl-lg-4">accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+							<ul class="list-unstyled text-capitalize">
+								<li>june - aug 2018
+									<i class="fas fa-calendar-alt ml-3"></i>
+								</li>
+								<li class="my-3">3 - 6 hours
+									<i class="fas fa-clock ml-3"></i>
+								</li>
+								<li>60 seats
+									<i class="fas fa-users ml-3"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="buttons-w3ls-2">
+					<a class="btn button-cour-w3ls text-white" href="course_details" role="button">Learn More</a>
+					<a class="btn bg-dark text-white" href="form" role="button">Apply Now</a>
+				</div>
+			</div>
+			<div class="row cource-list-agile pt-4">
+				<div class="col-lg-7 agile-course-main">
+					<div class="w3ls-cource-first">
+						<img src="{% static '/images/1.png' %}" alt="" class="img-fluid img-poiscour mx-auto d-block mt-2"></img>
+						<div class="px-md-5 px-4  pb-md-5 pb-4">
+							<h3 class="text-dark">Critical Of Thinking And Speaking</h3>
+							<p class="mt-3 mb-4 pr-lg-5">accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<i class="fas fa-calendar-alt mr-3"></i>may - aug 2018</li>
+								<li class="my-3">
+									<i class="fas fa-clock mr-3"></i>4 - 6 hours</li>
+								<li>
+									<i class="fas fa-users mr-3"></i>70 seats</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 agile-course-main-2 mt-4">
+					<img src="{% static '/images/am3.jpg' %}" alt="" class="img-fluid">
+				</div>
+				<div class="buttons-w3ls">
+					<a class="btn button-cour-w3ls text-white" href="course_details" role="button">Learn More</a>
+					<a class="btn bg-dark text-white" href="form" role="button">Apply Now</a>
+				</div>
+			</div>
+			<div class="row cource-list-agile cource-list-agile-2">
+				<div class="col-lg-5 agile-course-main-3 mt-4">
+					<img src="{% static '/images/am1.jpg' %}" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-7 agile-course-main text-right">
+					<div class="w3ls-cource-first">
+						<img src="{% static '/images/2.png' %}" alt="" class="img-fluid img-poiscour mx-auto d-block mt-2"></img>
+						<div class="px-md-5 px-4  pb-md-5 pb-4">
+							<h3 class="text-dark">Communication Of Process</h3>
+							<p class="mt-3 mb-4 pl-lg-4">accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+							<ul class="list-unstyled text-capitalize">
+								<li>june - aug 2018
+									<i class="fas fa-calendar-alt ml-3"></i>
+								</li>
+								<li class="my-3">3 - 6 hours
+									<i class="fas fa-clock ml-3"></i>
+								</li>
+								<li>60 seats
+									<i class="fas fa-users ml-3"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="buttons-w3ls-2">
+					<a class="btn button-cour-w3ls text-white" href="course_details.html" role="button">Learn More</a>
+					<a class="btn bg-dark text-white" href="form.html" role="button">Apply Now</a>
+				</div>
+			</div>
+			<div class="row cource-list-agile pt-4">
+				<div class="col-lg-7 agile-course-main">
+					<div class="w3ls-cource-first">
+						<img src="{% static '/images/1.png' %}" alt="" class="img-fluid img-poiscour mx-auto d-block mt-2"></img>
+						<div class="px-md-5 px-4  pb-md-5 pb-4">
+							<h3 class="text-dark">News Editing For Public Relations</h3>
+							<p class="mt-3 mb-4 pr-lg-5">accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<i class="fas fa-calendar-alt mr-3"></i>may - aug 2018</li>
+								<li class="my-3">
+									<i class="fas fa-clock mr-3"></i>4 - 6 hours</li>
+								<li>
+									<i class="fas fa-users mr-3"></i>70 seats</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 agile-course-main-2 mt-4">
+					<img src="images/am2.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="buttons-w3ls">
+					<a class="btn button-cour-w3ls text-white" href="course_details" role="button">Learn More</a>
+					<a class="btn bg-dark text-white" href="form" role="button">Apply Now</a>
+				</div>
+			</div>
+			<div class="row cource-list-agile cource-list-agile-2">
+				<div class="col-lg-5 agile-course-main-3 mt-4">
+					<img src="{% static '/images/am4.jpg' %}" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-7 agile-course-main text-right">
+					<div class="w3ls-cource-first">
+						<img src="{% static '/images/2.png' %}" alt="" class="img-fluid img-poiscour mx-auto d-block mt-2"></img>
+						<div class="px-md-5 px-4  pb-md-5 pb-4">
+							<h3 class="text-dark">Communication Of Internship Business</h3>
+							<p class="mt-3 mb-4 pl-lg-4">accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+							<ul class="list-unstyled text-capitalize">
+								<li>june - aug 2022
+									<i class="fas fa-calendar-alt ml-3"></i>
+								</li>
+								<li class="my-3">3 - 6 hours
+									<i class="fas fa-clock ml-3"></i>
+								</li>
+								<li>60 seats
+									<i class="fas fa-users ml-3"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="buttons-w3ls-2">
+					<a class="btn button-cour-w3ls text-white" href="course_details" role="button">Learn More</a>
+					<a class="btn bg-dark text-white" href="form" role="button">Apply Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //course-->
+
+	<!-- Stats-->
+	<div class="stats-w3layouts py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="stats-info">
+				<div class="row">
+					<div class="col-md-3 col-6 stats-grid-w3-agile text-center px-xl-5 px-3">
+						<div class='numscroller font-weight-bold my-2' data-slno='1' data-min='0' data-max='1280' data-delay='.5' data-increment="1">1280</div>
+						<p class="text-uppercase text-white border-top pt-4 mt-3">happy students</p>
+					</div>
+					<div class="col-md-3 col-6 stats-grid-w3-agile text-center  px-xl-5 px-3">
+						<div class='numscroller font-weight-bold my-2' data-slno='1' data-min='0' data-max='920' data-delay='.5' data-increment="1">920</div>
+						<p class="text-uppercase text-white border-top pt-4 mt-3">approved courses</p>
+					</div>
+					<div class="col-md-3 col-6 stats-grid-w3-agile text-center mt-md-0 mt-5  px-xl-5 px-3">
+						<div class='numscroller font-weight-bold my-2' data-slno='1' data-min='0' data-max='1200' data-delay='.5' data-increment="1">1200</div>
+						<p class="text-uppercase text-white border-top pt-4 mt-3">certified teachers</p>
+					</div>
+					<div class="col-md-3 col-6 stats-grid-w3-agile text-center mt-md-0 mt-5  px-xl-5 px-3">
+						<div class='numscroller font-weight-bold my-2' data-slno='1' data-min='0' data-max='1200' data-delay='.5' data-increment="1">1200</div>
+						<p class="text-uppercase text-white border-top pt-4 mt-3">graduate students</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Stats -->
+
+	<!-- course-->
+	<div class="classes py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="title text-capitalize font-weight-light text-dark text-center mb-sm-5 mb-4">Related
+				<span class="font-weight-bold">course</span>
+			</h3>
+			<div class="row pt-4">
+				<div class="col-lg-4 col-news-top text-center">
+					<!-- Left to right -->
+					<!-- normal -->
+					<div class="ih-item circle effect16 left_to_right mx-auto">
+						<a href="language.html">
+							<div class="img">
+								<img src="{% static '/images/c1.jpg' %}" alt="img" class="img-fluid rounded-circle">
+							</div>
+							<div class="info">
+								<h3 class="text-capitalize text-white">language</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<h6 class="small-heading text-capitalize text-center mt-4">
+						<a href="language" class="text-dark">language
+							<i class="fas fa-long-arrow-alt-right ml-1"></i>
+						</a>
+					</h6>
+					<!-- end normal -->
+					<!-- end Left to right -->
+				</div>
+				<div class="col-lg-4 col-news-top text-center my-lg-0 my-sm-5 my-4">
+					<!-- Left to right -->
+					<!-- normal -->
+					<div class="ih-item circle effect16 left_to_right mx-auto">
+						<a href="communication.html">
+							<div class="img">
+								<img src="{% static '/images/c2.jpg' %}" alt="img" class="img-fluid rounded-circle">
+							</div>
+							<div class="info">
+								<h3 class="text-capitalize text-white">communication</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<h6 class="small-heading text-capitalize text-center mt-4">
+						<a href="communication.html" class="text-dark">communication
+							<i class="fas fa-long-arrow-alt-right ml-1"></i>
+						</a>
+					</h6>
+					<!-- end normal -->
+					<!-- end Left to right -->
+				</div>
+				<div class="col-lg-4 col-news-top text-center">
+					<!-- Left to right -->
+					<!-- normal -->
+					<div class="ih-item circle effect16 left_to_right mx-auto">
+						<a href="business.html">
+							<div class="img">
+								<img src="{% static '/images/c3.jpg' %}" alt="img" class="img-fluid rounded-circle">
+							</div>
+							<div class="info">
+								<h3 class="text-capitalize text-white">business</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<h6 class="small-heading text-capitalize text-center mt-4">
+						<a href="business" class="text-dark">business
+							<i class="fas fa-long-arrow-alt-right ml-1"></i>
+						</a>
+					</h6>
+					<!-- end normal -->
+					<!-- end Left to right -->
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-lg-4 col-news-top text-center">
+					<!-- Left to right -->
+					<!-- normal -->
+					<div class="ih-item circle effect16 left_to_right mx-auto">
+						<a href="software">
+							<div class="img">
+								<img src="{% static '/images/c4.jpg' %}" alt="img" class="img-fluid rounded-circle">
+							</div>
+							<div class="info">
+								<h3 class="text-capitalize text-white">software</h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<h6 class="small-heading text-capitalize text-center mt-4">
+						<a href="software" class="text-dark">software
+							<i class="fas fa-long-arrow-alt-right ml-1"></i>
+						</a>
+					</h6>
+					<!-- end normal -->
+					<!-- end Left to right -->
+				</div>
+				<div class="col-lg-4 col-news-top text-center  my-lg-0 my-sm-5 my-4">
+					<!-- Left to right -->
+					<!-- normal -->
+					<div class="ih-item circle effect16 left_to_right mx-auto">
+						<a href="social_media">
+							<div class="img">
+								<img src="{% static '/images/c6.jpg' %}" alt="img" class="img-fluid rounded-circle">
+							</div>
+							<div class="info">
+								<h3 class="text-capitalize text-white">social media </h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<h6 class="small-heading text-capitalize text-center mt-4">
+						<a href="social_media" class="text-dark">social media
+							<i class="fas fa-long-arrow-alt-right ml-1"></i>
+						</a>
+					</h6>
+					<!-- end normal -->
+					<!-- end Left to right -->
+				</div>
+				<div class="col-lg-4 col-news-top text-center">
+					<!-- Left to right -->
+					<!-- normal -->
+					<div class="ih-item circle effect16 left_to_right mx-auto">
+						<a href="photography">
+							<div class="img">
+								<img src="{% static '/images/c5.jpg' %}" alt="img" class="img-fluid rounded-circle">
+							</div>
+							<div class="info">
+								<h3 class="text-capitalize text-white">photography </h3>
+								<p>Description goes here</p>
+							</div>
+						</a>
+					</div>
+					<h6 class="small-heading text-capitalize text-center mt-4">
+						<a href="photography" class="text-dark">photography
+							<i class="fas fa-long-arrow-alt-right ml-1"></i>
+						</a>
+					</h6>
+					<!-- end normal -->
+					<!-- end Left to right -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //course -->
+
+	<!-- brands -->
+	<div class="brands-w3ls py-md-5 py-4">
+		<div class="container py-xl-3">
+			<ul class="list-unstyled">
+				<li>
+					<i class="fab fa-supple"></i>
+				</li>
+				<li>
+					<i class="fab fa-angrycreative"></i>
+				</li>
+				<li>
+					<i class="fab fa-aviato"></i>
+				</li>
+				<li>
+					<i class="fab fa-aws"></i>
+				</li>
+				<li>
+					<i class="fab fa-cpanel"></i>
+				</li>
+				<li>
+					<i class="fab fa-hooli"></i>
+				</li>
+				<li>
+					<i class="fab fa-node"></i>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- //brands -->
+
+{% endblock body %}
